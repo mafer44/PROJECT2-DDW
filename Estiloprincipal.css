@@ -1,0 +1,126 @@
+
+body{
+    font-family: 'Oswald', sans-serif;
+   
+    background-image: url("imagenes/fondo.png") ;
+}
+#Navegador{
+    text-align: right;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(121, 215, 184);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: rgb(86, 136, 133);
+
+}
+
+#Productos{
+    background-color:rgb(86, 136, 133);
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+    padding: 35px;
+    overflow: hidden; 
+    border-radius: 50px; 
+}
+
+#Imagenes{
+    background-color: aliceblue;
+    width: 500px;
+    height: 500px;
+    padding: 0px auto;
+    margin: 10px;
+    overflow: hidden;
+    }
+
+ h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(86, 136, 133);;
+    font-size: 10px;
+   
+ }
+
+#myCarousel{
+    width: 200px;
+    height: 350px;
+    margin: 10px auto;
+    padding: 20;
+    overflow: hidden; 
+
+}
+
+.producto{
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    margin: 0px auto;
+
+}
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #181515;
+    color: #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-icons a {
+    color: #333;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .footer-icons a:hover {
+    background-color: #333;
+  }
+  
+  .footer-icons a i {
+    color: #fffafa;
+  }
+  
+  .footer-text {
+    margin-top: 5px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
