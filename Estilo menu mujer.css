@@ -4,11 +4,9 @@ body{
 }
 
 h1{text-align: center;}
-h2{text-align: center;}
-
 
 .ropa{
-    height: 320px;
+    height: 250px;
     width: 190px;
     border-radius: 150px;
     padding: 10px;
@@ -16,6 +14,7 @@ h2{text-align: center;}
 }
 
 #Galeria{
+    height: 450px;
     text-align: center;
     color: black;
     float: right;
