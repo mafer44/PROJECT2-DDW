@@ -4,17 +4,22 @@ body{
    
     background-image: url("imagenes/fondo.png") ;
 }
+
 #Navegador{
-    text-align: right;
+  text-align: right;
+  background-color: rgb(121, 215, 184);
 }
 .menu{
-    list-style: none;
-    padding: 0;
-    background-color: rgb(121, 215, 184);
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
+  list-style: none;
+  padding: 0;
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
 }
+.d-flex{
+  width: 80%;
+}
+
 
 .menu li a{
     text-decoration: none;
@@ -60,21 +65,28 @@ body{
    
  }
 
-#myCarousel{
-    width: 200px;
-    height: 350px;
+#carouselExampleControls{
+    width: 370px;
+    height: 500px;
     margin: 10px auto;
-    padding: 20;
+    padding: 20px;
     overflow: hidden; 
 
 }
 
-.producto{
-    height: 300px;
-    width: 200px;
-    padding: 10px;
-    margin: 0px auto;
 
+.producto1{
+  height: 380px;
+  width: 335px;
+margin: 10px auto;
+padding: 20px auto;
+}
+
+.producto2{
+    height: 345px;
+    width: 295px;
+margin: 40px auto;
+padding: 70px auto;
 }
 footer {
     position: relative;
