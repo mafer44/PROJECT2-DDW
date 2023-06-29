@@ -29,9 +29,9 @@ h1{text-align: center;}
 
 
 #Navegador{
-    text-align: right;
-    background-color: rgb(121, 215, 184);
-  }
+  text-align: right;
+  background-color: rgb(121, 215, 184);
+}
   .menu{
     list-style: none;
     padding: 0;
