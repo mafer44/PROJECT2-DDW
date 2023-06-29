@@ -13,16 +13,20 @@
   padding: 20px;
 }
 #Navegador{
-    text-align: right;
+  text-align: right;
+  background-color: rgb(121, 215, 184);
 }
 .menu{
-    list-style: none;
-    padding: 0;
-    background-color: rgb(121, 215, 184);
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
+  list-style: none;
+  padding: 0;
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
 }
+.d-flex{
+  width: 80%;
+}
+
 
 .menu li a{
     text-decoration: none;
@@ -48,11 +52,11 @@
 
     .container {
       max-width: 400px;
-      margin: 0 auto;
+      margin:  auto;
       padding: 20px;
-      background-color: #ffffff;
+      background-color: rgb(121, 215, 184);
       border: 1px solid #cccccc;
-      border-radius: 10px;
+      border-radius: 40px;
       margin-top: 50px;
     }
 
@@ -72,7 +76,7 @@
     }
 
     .form-group input {
-      width: 100%;
+      width: 95%;
       padding: 10px;
       font-size: 16px;
       border-radius: 4px;
@@ -83,7 +87,7 @@
       width: 100%;
       padding: 10px;
       font-size: 16px;
-      background-color: rgb(121, 215, 184);
+      background-color: rgb(101, 117, 112);
       color: #ffffff;
       border: none;
       border-radius: 4px;
@@ -94,16 +98,26 @@
 
 <body>
     <div id="Navegador">
-        <ul class="menu">
-                <ul>
-    
-                        <li><a href="Moda y Estilo.html">Inicio</a></li>
-                        <li><a href="Menu ropa mujer.html">Ropa Mujer</a></li>
-                        <li><a href="Menu ropa hombre/Menu ropa hombre.html">Ropa Hombre</a></li>
-                        <li> <a target="_blank" href="https://web.whatsapp.com/send?phone=987287557"> WhatsApp</a></li>
-                        <li><a href="Formulario.html">Sign Up</a></li>
-                </ul>
-            </div>
+
+      <nav class="navbar navbar-rgb(121, 215, 184); bg-rgb(121, 215, 184);">
+        <div class="container-fluid">
+          <ul class="menu">
+            <ul>
+
+                    <li><a href="ModayEstilo.html">Inicio</a></li>
+                    <li><a href="Menuropamujer.html">Ropa Mujer</a></li>
+                    <li><a href="MenuHombre/MenuHombre.html">Ropa Hombre</a></li>
+                    <li> <a target="_blank" href="https://web.whatsapp.com/send?phone=987287557"> WhatsApp</a></li>
+                
+                    <li> <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-sm btn-outline-secondary" type="submit">Buscar</button>
+          </form></li>
+          <li><a href="Formulario.html">Sign Up</a></li>
+        </ul>
+        </div>
+      </nav>
+        </div>
 
   <div class="container">
     <h2>Formulario de Registro</h2>
