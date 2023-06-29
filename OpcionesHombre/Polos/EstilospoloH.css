@@ -21,9 +21,9 @@ h2{text-align: center;}
     float: right;
     width: calc(100% - 320px); 
     background-color:#F2F2F2;
-    margin-top: 40px;
+    margin: 20px;
+    margin-top: 10px;
     margin-right: 160px;
-    margin-bottom: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 50px;
@@ -31,11 +31,12 @@ h2{text-align: center;}
 
 #Navegador{
     text-align: right;
+    background-color: rgb(121, 215, 184);
 }
+
 .menu{
     list-style: none;
     padding: 0;
-    background-color: rgb(121, 215, 184);
     width: 90%;
     max-width: 1000px;
     margin: auto;
@@ -57,3 +58,52 @@ h2{text-align: center;}
     background: rgb(86, 136, 133);
 
 }
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #181515;
+    color: #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-icons a {
+    color: #333;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .footer-icons a:hover {
+    background-color: #333;
+  }
+  
+  .footer-icons a i {
+    color: #fffafa;
+  }
+  
+  .footer-text {
+    margin-top: 5px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
