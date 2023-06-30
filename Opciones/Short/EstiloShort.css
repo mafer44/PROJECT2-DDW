@@ -8,7 +8,7 @@ h2{text-align: center;}
 
 
 .ropa{
-    height: 280px;
+    height: 320px;
     width: 190px;
     border-radius: 150px;
     padding: 10px;
@@ -22,7 +22,7 @@ h2{text-align: center;}
     width: calc(100% - 320px); 
     background-color:#F2F2F2;
     margin: 20px;
-    margin-top:10px;
+    margin-top: 10px;
     margin-right: 160px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -31,15 +31,16 @@ h2{text-align: center;}
 
 #Navegador{
     text-align: right;
-}
-.menu{
+    background-color: rgb(121, 215, 184);
+  }
+  .menu{
     list-style: none;
     padding: 0;
-    background-color: rgb(121, 215, 184);
     width: 90%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
-}
+  }
+  
 
 .menu li a{
     text-decoration: none;
@@ -57,6 +58,7 @@ h2{text-align: center;}
     background: rgb(86, 136, 133);
 
 }
+
 footer {
     position: relative;
     bottom: 0;
