@@ -1,136 +1,160 @@
 
 body{
-    font-family: 'Oswald', sans-serif;
-   
-    background-image: url("imagenes/FONDO.jpg") ;
+  font-family: 'Oswald', sans-serif;
+ 
+  background-image: url("imagenes/FONDO.jpg") ;
 }
 
 #Navegador{
-  text-align: right;
-  background-color: rgb(121, 215, 184);
+text-align: right;
+background-color: rgb(121, 215, 184);
 }
 .menu{
-  list-style: none;
-  padding: 0;
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
+list-style: none;
+padding: 0;
+width: 90%;
+max-width: 1100px;
+margin: auto;
 }
 
 
 
 .menu li a{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: block;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
 }
 
 .menu li{
-    display: inline-block;
-    text-align: center;
+  display: inline-block;
+  text-align: center;
 }
 
 .menu li a:hover{
-    background: rgb(86, 136, 133);
+  background: rgb(86, 136, 133);
 
 }
 
-#Productos{
-    background-color:rgb(86, 136, 133);
-    width: 600px;
-    height: 600px;
-    margin: 10px auto;
-    padding: 35px;
-    overflow: hidden; 
-    border-radius: 50px; 
+
+
+
+h1{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 10px;
+ 
 }
 
-#Imagenes{
-    background-color: aliceblue;
-    width: 500px;
-    height: 500px;
-    padding: 0px auto;
-    margin: 10px;
-    overflow: hidden;
-    }
+h2{
 
- h1{
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color: rgb(7, 26, 25);;
-    font-size: 10px;
-   
- }
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 10px;
+ 
 
-#carouselExampleControls{
-    width: 370px;
-    height: 500px;
-    margin: 10px auto;
-    padding: 20px;
-    overflow: hidden; 
+}
 
+
+#contacto{
+background-color: white;
+width: 1100px;
+  height: 500px;
+  margin: 10px auto;
+  padding: 20px;
+  overflow: hidden;
 }
 
 
 .producto1{
-  height: 380px;
-  width: 335px;
+height: 380px;
+width: 335px;
 margin: 10px auto;
 padding: 20px auto;
 }
 
 .producto2{
-    height: 345px;
-    width: 295px;
+  height: 345px;
+  width: 295px;
 margin: 40px auto;
 padding: 70px auto;
 }
 footer {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #181515;
-    color: #ccc;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .footer-icons {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .footer-icons a {
-    color: #333;
-    margin-left: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: transparent;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .footer-icons a:hover {
-    background-color: #333;
-  }
-  
-  .footer-icons a i {
-    color: #fffafa;
-  }
-  
-  .footer-text {
-    margin-top: 5px;
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #181515;
+  color: #ccc;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-icons a {
+  color: #333;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.footer-icons a:hover {
+  background-color: #333;
+}
+
+.footer-icons a i {
+  color: #fffafa;
+}
+
+.footer-text {
+  margin-top: 5px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.carousel {
+margin-bottom: 4rem;
+}
+
+.carousel-caption {
+bottom: 3rem;
+z-index: 10;
+}
+
+
+.carousel-item {
+height: 32rem;
+background-color: #777;
+}
+.carousel-item > img {
+position: absolute;
+top: 0;
+left: 0;
+min-width: 100%;
+height: 32rem;
+}
+
+
+p{
+text-align: justify;
+}
