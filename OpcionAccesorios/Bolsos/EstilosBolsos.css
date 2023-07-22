@@ -19,11 +19,11 @@ h2{text-align: center;}
     text-align: center;
     color: black;
     float: right;
-    width: calc(100% - 320px); 
+    width: calc(110% - 300px); 
     background-color:#F2F2F2;
     margin: 20px;
     margin-top: 10px;
-    margin-right: 160px;
+    margin-right: 80px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 50px;
@@ -59,6 +59,52 @@ h2{text-align: center;}
 
 }
 
+.paginacion {
+  margin: 20px 0;
+
+}
+
+.paginacion ul{
+  list-style: none;
+  text-align: center;
+
+}
+
+.paginacion ul li{
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.paginacion ul .disabled{
+  background: #568885;
+  display: inline-block;
+  font-family: "Oawald" Arial, Helvetica, sans-serif;
+  cursor: not-allowed;
+  color: #fff;
+  text-decoration: none;
+}
+
+.paginacion ul li a{
+font-family: "Oawald" Arial, Helvetica, sans-serif;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  background: rgb(86, 136, 133);
+  text-decoration:  none;
+
+}
+
+.paginacion ul li a:hover{
+  background: rgb(121, 215, 184);
+}
+
+.paginacion ul li .active{
+  background: rgb(121, 215, 184);
+  font-weight: bold;
+
+}
+
 footer {
     position: relative;
     bottom: 0;
@@ -89,7 +135,7 @@ footer {
     height: 30px;
     border-radius: 50%;
     background-color: transparent;
-    transition: background-color 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   
   .footer-icons a:hover {

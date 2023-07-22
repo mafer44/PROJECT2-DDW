@@ -102,7 +102,7 @@ h2{
     height: 30px;
     border-radius: 50%;
     background-color: transparent;
-    transition: background-color 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   
   .footer-icons a:hover {
