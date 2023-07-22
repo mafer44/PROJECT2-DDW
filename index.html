@@ -23,21 +23,20 @@
                           <li><a href="Menuropamujer.html">Ropa Mujer</a></li>
                           <li><a href="MenuHombre.html">Ropa Hombre</a></li>
                           <li><a href="MenuAccesorios.html">Accesorios</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a>
-                          </li>
-                        
+                          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
                       
-                          <li> <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                  <button class="btn btn-sm btn-outline-secondary" type="submit">Buscar</button>
-                </form></li>
-                <li><a href="Formulario.html">Sign Up</a></li>
-              </ul>
-              </ul>
+                          
+                        
+                  </ul>
+                </ul>
               </div>
             </nav>
-        </div>
+      </div>
         <br>
+
+        <a href="https://web.whatsapp.com/send?phone=987287557text=Hola,%20estoy%20interesado%20en%20su%20servicio." class="whatsapp-button" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" alt="WhatsApp">
+        </a>
 
         <h1>Productos nuevos</h1>
         <br>
@@ -76,9 +75,8 @@
 
     <br>
 
-                    <hr class="featurette-divider">
 
-                    <h2 class="display-4">Contacto</h2>
+                    <h2 class="display-4">Contacta con nostros</h2>
 
                     <div id="Contacto">
 
@@ -86,7 +84,7 @@
                     <div id="contacto" class="container my-3">
                       <div class="pricing-header mx-auto text-center">
                 
-                          <p class="lead text-justify">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
+                          <p class="lead text-justify">Si quieres información sobre cualquiera de nuestros productos o estas interesado en su distribución, rellena nuestro formulario y nos pondremos en contacto contigo lo antes posible.</p>
                       </div>
                       
                       <div class="row">
@@ -97,29 +95,33 @@
                         </div>
                       
       
-                          <div class="col-md-4">
-                              <form>
+                          <div class="col-md-4" >
+                              <form id="my-form" action="https://formspree.io/f/maygndbv" method="POST">
                                   <div class="form-group">
-                                      <label for="contactName">Nombres</label>
-                                      <input type="text" class="col-md-10 col-form-label"  id="contactName" required>
+                                    
+                                      <label for="nombre">Nombres</label>
+                                      <input type="text" class="col-md-10 col-form-label" name="nombre" id="nombre" required>
                                       <br>
-                              
-                                      <label for="contactPhone">Teléfono</label>
+                                      <label for="celular">Celular</label>
                                       <br>
-                                      <input type="tel" class="col-md-10 col-form-label" id="contactPhone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-
-                                      
-                              
-                                      <label for="contactComment">Comentario</label>
+                                      <input type="number" class="col-md-10 col-form-label" name="celular" id="celular" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                                       <br>
-                                      <textarea class="col-md-10 col-form-label" id="contactComment" rows="3" required></textarea>
+                                      <label for="correo">Correo</label>
+                                      <br>
+                                      <input type="email" class="col-md-10 col-form-label" name="correo" id="correo" required>
+                                      <br>
+                                      <label for="mensaje">Mensaje</label>
+                                      <br>
+                                      <textarea class="col-md-10 col-form-label" name="mensaje" id="mensaje" rows="3" required></textarea>
                                   </div>
+                                
                                   <br>
                                   <button type="submit" class="btn btn-sm btn-outline-secondary">Enviar</button>
+                                </div>
                               </form>
       
       
-                          </div>
+                          
                       </div>
       
       
@@ -138,12 +140,13 @@
           <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
         <div class="footer-text">
-          <p>Created by: Maria Chacón - Jazmin Retis - Mel Guerra</p>
+          <p>Created by: Maria Chacón - Jazmin Retis</p>
          
         </footer>
   
         <script src="https://kit.fontawesome.com/0dab041601.js" crossorigin="anonymous"></script>
         <script src="js/index.js"></script>
+        <script src="js/validateForm.js"></script>
             
             
 
