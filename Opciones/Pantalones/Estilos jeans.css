@@ -3,13 +3,15 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-h1{text-align: center;}
-h2{text-align: center;}
+.subtitulos{
+  text-align: center;
+  background-color: white;
+}
 
 
 .ropa{
     height: 320px;
-    width: 190px;
+    width: 200px;
     border-radius: 150px;
     padding: 10px;
     cursor: pointer;
@@ -19,11 +21,11 @@ h2{text-align: center;}
     text-align: center;
     color: black;
     float: right;
-    width: calc(100% - 320px); 
+    width: calc(110% - 320px); 
     background-color:#F2F2F2;
     margin: 20px;
     margin-top: 10px;
-    margin-right: 160px;
+    margin-right: 80px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 50px;
@@ -107,3 +109,51 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
+
+  .paginacion {
+    margin: 20px 0;
+  
+  }
+  
+  .paginacion ul{
+    list-style: none;
+    text-align: center;
+  
+  }
+  
+  .paginacion ul li{
+    display: inline-block;
+    margin-right: 10px;
+  
+  }
+  
+  .paginacion ul .disabled{
+    background: #568885;
+    display: inline-block;
+    font-family: "Oawald" Arial, Helvetica, sans-serif;
+    cursor: not-allowed;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .paginacion ul li a{
+  font-family: "Oawald" Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background: rgb(86, 136, 133);
+    text-decoration:  none;
+  
+  }
+  
+  .paginacion ul li a:hover{
+    background: rgb(121, 215, 184);
+  }
+  
+  .paginacion ul li .active{
+    background: rgb(121, 215, 184);
+    font-weight: bold;
+  
+  }
+  
