@@ -8,28 +8,102 @@ body{
   background-color: white;
 }
 
-
-.ropa{
-    height: 320px;
-    width: 240px;
-    border-radius: 150px;
-    padding: 10px;
-    cursor: pointer;
+ropa{
+  height: 320px;
+  width: 240px;
+  border-radius: 150px;
+  padding: 10px;
+  cursor: pointer;
 }
 
-#Galeria{
+Galeria{
+  text-align: center;
+  color: black;
+  float: right;
+  width: calc(110% - 300px); 
+  background-color:#F2F2F2;
+  margin: 20px;
+  margin-top: 10px;
+  margin-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 50px;
+}
+
+.contenedor{
+border-radius: 50px;
+margin: 20px 4em 20px 4em;
+max-width: 75rem;
+background-color: #F2F2F2;
+
+display: flex;
+flex-flow: row wrap;
+}
+
+.card{
+  display: grid;
+  flex-basis: calc(30% - 8em);
+  min-height: 20em;
+  margin: 2em;
+  
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  transition: all 400ms ease;
+  position: relative;
+  }
+  
+
+  .card:hover{
+  cursor: pointer;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+  }
+  
+  .card img{
+    height: 100%;
+    width: 235px;
+  min-height: 10em;
+  background-color: aqua;
+  }
+  
+  .intro{
     text-align: center;
-    color: black;
-    float: right;
-    width: calc(110% - 429px); 
-    background-color:#F2F2F2;
+    height: 60px;
+    border-radius: 0px 0px 20px 20px;
+    box-sizing: border-box;
+    bottom: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    transition: .5s;
+  }
+  
+  .intro p{
+    font-size: 20px;  
     margin: 20px;
-    margin-top: 10px;
-    margin-right: 160px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 50px;
-}
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .intro h3{
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  span{
+    font-weight: bold;
+  }
+  
+  .card:hover .intro{
+    height: 170px;
+    background: rgb(86, 136, 133);
+  }
+  
+  .card:hover p{
+    opacity: 1;
+    visibility: visible;
+  }
 
 #Navegador{
     text-align: right;
