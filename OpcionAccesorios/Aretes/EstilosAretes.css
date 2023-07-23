@@ -85,8 +85,8 @@ h2{
     }
     
     .card:hover .intro{
-      height: 170px;
-      background: rgb(86, 136, 133);
+      height: 195px;
+      background: rgb(86, 136, 133, 0.8);
     }
     
     .card:hover p{
