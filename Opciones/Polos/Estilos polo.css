@@ -3,13 +3,17 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-h1{text-align: center;}
-h2{text-align: center;}
+.subtitulos{
+  background-color: white;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
 
 
 .ropa{
-    height: 280px;
-    width: 190px;
+    height: 270px;
+    width: 230px;
     border-radius: 150px;
     padding: 10px;
     cursor: pointer;
@@ -19,7 +23,7 @@ h2{text-align: center;}
     text-align: center;
     color: black;
     float: right;
-    width: calc(100% - 320px); 
+    width: calc(110% - 429px); 
     background-color:#F2F2F2;
     margin: 20px;
     margin-top:10px;
@@ -32,29 +36,33 @@ h2{text-align: center;}
 #Navegador{
     text-align: right;
 }
+#Navegador{
+  text-align: right;
+  background-color: rgb(121, 215, 184);
+}
 .menu{
-    list-style: none;
-    padding: 0;
-    background-color: rgb(121, 215, 184);
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
+  list-style: none;
+  padding: 0;
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
 }
 
+
 .menu li a{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: block;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
 }
 
 .menu li{
-    display: inline-block;
-    text-align: center;
+  display: inline-block;
+  text-align: center;
 }
 
 .menu li a:hover{
-    background: rgb(86, 136, 133);
+  background: rgb(86, 136, 133);
 
 }
 footer {
@@ -105,3 +113,49 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  .paginacion {
+    margin: 20px 0;
+  
+  }
+  
+  .paginacion ul{
+    list-style: none;
+    text-align: center;
+  
+  }
+  
+  .paginacion ul li{
+    display: inline-block;
+    margin-right: 10px;
+  
+  }
+  
+  .paginacion ul .disabled{
+    background: #568885;
+    display: inline-block;
+    font-family: "Oawald" Arial, Helvetica, sans-serif;
+    cursor: not-allowed;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .paginacion ul li a{
+  font-family: "Oawald" Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background: rgb(86, 136, 133);
+    text-decoration:  none;
+  
+  }
+  
+  .paginacion ul li a:hover{
+    background: rgb(121, 215, 184);
+  }
+  
+  .paginacion ul li .active{
+    background: rgb(121, 215, 184);
+    font-weight: bold;
+  
+  }
+  
