@@ -99,7 +99,7 @@ flex-flow: row wrap;
   }
   
   .card:hover .intro{
-    height: 170px;
+    height: 190px;
     background: rgb(86, 136, 133);
   }
   

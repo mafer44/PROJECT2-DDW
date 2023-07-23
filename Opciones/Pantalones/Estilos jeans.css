@@ -41,7 +41,8 @@ flex-flow: row wrap;
 
 .card{
   display: grid;
-  flex-basis: calc(30% - 8em);
+  height: 60px;
+  width: 235px;
   min-height: 20em;
   margin: 2em;
   
