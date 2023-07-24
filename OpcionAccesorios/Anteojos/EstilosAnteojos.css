@@ -3,18 +3,26 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-h1{
-  font-family: 'Oswald', sans-serif;
-  color: black;
-  background-color: white;
+.subtitulos{
   text-align: center;
+  background-color: white;
+  padding: 2px;
 }
 
-h2{
-  font-family: 'Oswald', sans-serif;
-  color: black;
-  background-color: white;
+
+
+#Galeria{
   text-align: center;
+  color: black;
+  float: right;
+  width: calc(110% - 300px); 
+  background-color:#F2F2F2;
+  margin: 20px;
+  margin-top: 10px;
+  margin-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 50px;
 }
 
 

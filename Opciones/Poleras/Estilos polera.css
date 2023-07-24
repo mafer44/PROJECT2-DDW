@@ -8,7 +8,7 @@ body{
   background-color: white;
 }
 
-ropa{
+#ropa{
   height: 320px;
   width: 240px;
   border-radius: 150px;
@@ -16,7 +16,7 @@ ropa{
   cursor: pointer;
 }
 
-Galeria{
+#Galeria{
   text-align: center;
   color: black;
   float: right;

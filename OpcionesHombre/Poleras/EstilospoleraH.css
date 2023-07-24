@@ -3,21 +3,14 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-h1{
-  font-family: 'Oswald', sans-serif;
-  color: black;
-  background-color: white;
+
+.subtitulos{
   text-align: center;
+  background-color: white;
+  padding: 2px;
 }
 
-h2{
-  font-family: 'Oswald', sans-serif;
-  color: black;
-  background-color: white;
-  text-align: center;
-}
-
-ropa{
+#ropa{
     height: 320px;
     width: 240px;
     border-radius: 150px;
@@ -25,7 +18,7 @@ ropa{
     cursor: pointer;
 }
 
-Galeria{
+#Galeria{
     text-align: center;
     color: black;
     float: right;
