@@ -41,7 +41,8 @@ flex-flow: row wrap;
 
 .card{
   display: grid;
-  flex-basis: calc(30% - 8em);
+  height: 60px;
+  width: 235px;
   min-height: 20em;
   margin: 2em;
   
@@ -68,6 +69,7 @@ flex-flow: row wrap;
   .intro{
     text-align: center;
     height: 60px;
+    width: 235px;
     border-radius: 0px 0px 20px 20px;
     box-sizing: border-box;
     bottom: 0;
